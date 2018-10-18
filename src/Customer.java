@@ -19,6 +19,7 @@ public class Customer {
     public BankAccount getAccount() {
         return account;
     }
+
     @Override
     public String toString() {
         return "Customer's name - " + name + ", age: "
