@@ -9,10 +9,12 @@ public class Error {
     }
 
     public Customer getCustomer() {
+
         return customer;
     }
 
     public String getErrorMessage() {
+
         return errorMessage;
     }
 }
